@@ -1,0 +1,58 @@
+.v-dark,
+.v-light {
+  background-color: $bg-color;
+  color: $body-color;
+}
+
+.v-dark-head {
+  color: $body-color;
+}
+
+.background-main {
+  // background-color: $bg-color;
+  background: radial-gradient(at 50% 0%, $bg-color2, $bg-color);
+}
+
+.background-section {
+  // background-color: $assistant-color;
+  background:  radial-gradient(at 0% 0%,$assistant-color2, $assistant-color);
+  border-radius: 3px;
+  box-shadow: 12px 12px 36px #00000099, 4px 4px 12px #00000077, -1px -1px 1px #ffffff33, -4px -4px 12px #ffffff11;
+  // background:  radial-gradient(at 100% 100%,$assistant-color2, $assistant-color);
+}
+
+.background-gradient-left {
+  background: $assistant-color;
+  background: linear-gradient(90deg, $assistant-color 0%, $theme-color 50%);
+}
+
+.background-gradient-bottom {
+  background: $assistant-color;
+  background: linear-gradient(0deg, $assistant-color 0%, $theme-color 50%);
+}
+
+.background-gradient-right {
+  background: $assistant-color;
+  background: linear-gradient(390deg, $assistant-color 0%, $theme-color 50%);
+}
+
+.background-gradient-top {
+  background: $assistant-color;
+  background: linear-gradient(180deg, $assistant-color 0%, $theme-color 50%);
+}
+
+.background-theme {
+  background-color: $theme-color;
+}
+
+.theme-color {
+  color: $theme-color;
+}
+
+.heading-color {
+  color: $heading-color;
+}
+
+.body-color {
+  color: $body-color;
+}

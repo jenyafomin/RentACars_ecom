@@ -1,0 +1,41 @@
+#dsn-scrollbar, .sidebar-single, .dsn-work-scrollbar {
+  display: block;
+  position: relative;
+  .scrollbar-track {
+    background: none;
+    width: 4px;
+    // mix-blend-mode: exclusion;
+
+    .scrollbar-thumb {
+      background: #fff;
+      background: linear-gradient(#22de99, #28aae2);
+      width: $smooth-width;
+      animation: gradient-animation 7s linear infinite;
+      filter: blur(8px);
+    }
+  }
+}
+
+@keyframes gradient-animation {
+	0%  {filter: hue-rotate(-30deg); } 
+	50% { filter: hue-rotate(240deg); }
+  100% {filter: hue-rotate(-30deg); } 
+}
+
+
+.main-content.dsn-main-scrollbar .scrollbar-track {
+  @include body-line {
+    left: calc(#{$body-style-space} + (#{$smooth-width} /2) * -1) ;
+    right: auto;
+  }
+}
+
+
+
+body.dsn-active-scrollbar .main-content{
+  overflow: hidden;
+}
+
+#dsn-scrollbar > .scroll-content{
+  --dsn-width-scroll : 0px;
+}
