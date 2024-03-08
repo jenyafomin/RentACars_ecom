@@ -1,5 +1,4 @@
 
-
 function spaceHtml(target, whitespace) {
     const space = target.querySelectorAll('.whitespace');
     const char = target.querySelectorAll('.char');
@@ -12,10 +11,6 @@ function spaceHtml(target, whitespace) {
             item.style.setProperty("--char-dsn-index" , index);
         });
     ;
-
-
-
-
 }
 
 export const splittingChar = (target, whitespace = true) => {

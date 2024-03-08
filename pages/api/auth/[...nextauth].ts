@@ -36,7 +36,7 @@ export const options: NextAuthOptions = {
     ]
 }
 
-const handler = NextAuth(options)
+const Handler = NextAuth(options)
 
-export default handler
+export default Handler
 // export { handler as GET, handler as POST }

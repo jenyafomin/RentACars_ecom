@@ -3,7 +3,7 @@ import {dsnCN, scrollTop} from "../hooks/helper";
 import dataAttr from "../hooks/dataAttr";
 import SocialOne from "../components/social/SocialOne";
 import MainScrollBar from "./MainScrollBar";
-import ModalRight from "../components/model-right/ModalRight.jsx";
+import ModalRight from "../components/model-right/ModalRight";
 
 
 import {useSelector} from "react-redux";

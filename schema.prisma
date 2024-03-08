@@ -39,7 +39,7 @@ model User {
   name          String?
   email         String?   @unique
   emailVerified DateTime?
-  hashedPassword String?
+  hashedPassword String? 
   role String @default("ADMIN")
   image         String?
   accounts      Account[]
