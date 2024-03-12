@@ -1,10 +1,10 @@
 import React from "react";
-import HeaderNormal from "../components/header/HeaderNormal";
-import Layout from "../layout/Layout";
-import NextPage from "../components/next/NextPage";
-import ModalContact from "../components/model-right/ModalContact";
-import Blog from "../components/bolg/Blog";
-import Footer from "../components/footer/Footer";
+import HeaderNormal from "../../components/header/HeaderNormal";
+import Layout from "../../layout/Layout";
+import NextPage from "../../components/next/NextPage";
+import ModalContact from "../../components/model-right/ModalContact";
+import Blog from "../../components/bolg/Blog";
+import Footer from "../../components/footer/Footer";
 import Head from "next/head";
 
 
@@ -28,7 +28,7 @@ function Work() {
             {/*========== End Header Normal ==========*/}
 
             <div className="container section-margin">
-                <Blog styleBlog="our-blog-classic" col={2} rowGap={80} colGap={50} />
+                <Blog styleBlog="our-blog-classic our-blog-full-img" col={2} rowGap={80} colGap={50} />
             </div>
 
             {/*========== Start Next Page Section ==========*/}

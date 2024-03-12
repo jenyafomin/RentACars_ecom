@@ -15,7 +15,7 @@ function Project4() {
         <Layout>
             <HeaderFull className="dsn-container"
                         alignItems="end"
-                        heroContent={heroData} overlay={heroData.overlay}/>
+                        heroContent={heroData as any} overlay={heroData.overlay}/>
             {/*Start Intro Project*/}
             <section className="intro-project container section-margin">
                 <DsnGrid customGrid={{desktop:"40% 60%"}}>

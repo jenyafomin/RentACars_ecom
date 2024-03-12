@@ -39,11 +39,13 @@ export function tdStart(transitionPage: transitionPage): [HTMLDivElement, gsap.c
 
 export function tdEnd() : void {
     document.body.querySelectorAll(".dsn-ajax-loader").forEach((el, index) => {
+        // ??
         if (index > 0) {
             el.remove();
             return;
         }
 
+        // middlware page remove to top
         gsap.timeline({defaults: {ease: "Expo.easeInOut"}}).to(el, {
             yPercent: -100,
             duration: 1.5

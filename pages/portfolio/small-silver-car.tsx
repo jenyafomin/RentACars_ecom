@@ -15,7 +15,7 @@ function Project5(params) {
         <Layout>
             <HeaderFull className="dsn-container"
                         alignItems="end"
-                        heroContent={heroData} overlay={heroData.overlay}/>
+                        heroContent={heroData as any} overlay={heroData.overlay}/>
 
             {/*Start Intro Project*/}
             <section className="intro-project container section-margin">

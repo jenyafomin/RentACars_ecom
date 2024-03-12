@@ -444,7 +444,7 @@
 }
 
 
-@mixin text-var-hide($delay: 1000ms ,$char : true ,$parent : '.dsn-word-wrapper' , $sub : '.dsn-chars-wrapper' ,  $transition : $easeInOutBack
+@mixin text-var-hide($delay: 1ms ,$char : true ,$parent : '.dsn-word-wrapper' , $sub : '.dsn-chars-wrapper' ,  $transition : $easeInOutBack
 ) {
 
   #{$parent} {
